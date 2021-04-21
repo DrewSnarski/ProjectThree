@@ -7,7 +7,7 @@ html {
   padding: 2em;
   background: #6699CC;
   text-align: left;
-  padding: 2.125em 15%;
+  padding: 3em 15%;
 }
 
 .homepage{
@@ -35,13 +35,13 @@ h2 {
   text-align: center;
   font-size: 1.5em;
   padding-bottom: 0.5em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 nav{
   padding: .5em;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 nav a {
@@ -57,17 +57,7 @@ nav a:hover {
   background: #C7B2B2;
 }
 
-.round_left {
-    border-radius: 50px 0 0 50px;   
-  }
-  
-.round_right {
-    border-radius: 0 50px 50px 0;   
-}
-
-nav li {
-  float: left;
-  width: 33.33%;
+nav li{
   list-style: none;
 }
 
@@ -92,10 +82,60 @@ main ul li li {
   list-style-type: circle;
 }
 
-footer {
-  text-align: center; 
+#map {
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  left: 25%;
+  top: 40%;
 }
 
+footer {
+  text-align: center; 
+  
+  bottom: 0;
+}
 
+@media screen and (min-width: 1080px) {
+  html {
+    padding: 0.75em 5%;
+   
+  }
+  nav a {
+    font-size: 0.75em;
+  }
+  h2 {
+    padding-bottom: .5em;
+  }
+}
+
+@media screen and (min-width: 1500px)/*This is where without the media query the h2 would move up next to the navbar*/ {
+  html {
+    padding: 2.125em 15% ;
+    
+  }
+  h2 {
+    padding-top: 2em;
+  }
+  nav{
+    margin-left: 5em;
+    margin-right: 5em;
+ 
+  }
+  nav li {
+    float: left;
+    width: 25%;
+  }
+  nav a {
+    font-size: 1.125em;
+  }
+  .round_left {
+    border-radius: 50px 0 0 50px;   
+  }
+  
+  .round_right {
+    border-radius: 0 50px 50px 0;   
+  }
+}
 
 
