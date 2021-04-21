@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  padding: 2em;
+  background: #6699CC;
+  text-align: left;
+  padding: 2.125em 15%;
+}
+
+.homepage{
+  text-align: center;
+}
+
+.homepage p{
+  border: 1px dashed black;
+}
+
+.steampic{
+  padding-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+  background-color: white;
+  margin: .5em;
+  border-radius: 100px 100px 100px 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  padding-top: 2em;
+}
+
+nav{
+  padding: .5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  background: #C66262;
+  color: #000000;
+  text-align: center;
+}
+
+nav a:hover {
+  background: #C7B2B2;
+}
+
+.round_left {
+    border-radius: 50px 0 0 50px;   
+  }
+  
+.round_right {
+    border-radius: 0 50px 50px 0;   
+}
+
+nav li {
+  float: left;
+  width: 33.33%;
+  list-style: none;
+}
+
+.pictures{
+  width: 25em;
+}
+
+iframe{
+  width:30em;
+  height:20em;
+}
+
+main ul li {
+  font-size: 1em;
+  margin-left: 1em;
+  list-style-type: disc;
+}
+
+main ul li li {
+  font-size: 1em;
+  margin-left: 1em;
+  list-style-type: circle;
+}
+
+footer {
+  text-align: center; 
+}
+
+
+
+
